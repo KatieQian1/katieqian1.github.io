@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Junyi Qian — Georgia Tech M.S. Computer Science student building software, AI agents, and machine learning systems. Explore experience and selected projects.">
+  <meta name="theme-color" content="#142d3a">
+  <meta property="og:title" content="Junyi Qian | Software & AI">
+  <meta property="og:description" content="Software engineering, intelligent systems, and the work that connects them. Georgia Tech M.S. Computer Science.">
+  <meta property="og:type" content="website">
+  <title>Junyi Qian | Software & AI</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="header">
+  <a class="brand" href="#home" aria-label="Junyi Qian, home">JQ<span class="brand-dot">.</span></a>
+  <nav aria-label="Main navigation"><a href="#work">Work</a><a href="#experience">Experience</a><a href="#about">About</a><a class="nav-contact" href="#contact">Let’s connect <span aria-hidden="true">↗</span></a></nav>
+</header>
+<main id="main">
+<section class="hero wrap" id="home" aria-labelledby="hero-title">
+ <div class="hero-copy">
+  <p class="eyebrow"><span class="status-dot"></span> OPEN TO SUMMER 2027 INTERNSHIPS</p>
+  <h1 id="hero-title">Junyi Qian<span class="name-note">You can call me Katie.</span></h1>
+  <h2>Thoughtful software.<br><em>Intelligent systems.</em></h2>
+  <p class="intro">I’m a Computer Science master’s student at Georgia Tech, building across backend engineering, AI agents, and applied machine learning.</p>
+  <div class="hero-actions"><a class="button primary" href="#work">Explore my work <span aria-hidden="true">↘</span></a><a class="text-link" href="assets/Junyi-Qian-Resume.pdf" target="_blank" rel="noopener">View résumé <span aria-hidden="true">↗</span></a></div>
+  <div class="hero-foot"><span>ATLANTA, GA</span><span class="separator">/</span><span>GEORGIA TECH · M.S. CS</span></div>
+ </div>
+ <div class="portrait-block">
+  <div class="portrait-frame"><img src="assets/portrait.png" alt="Portrait of Junyi Qian" width="1024" height="1536" fetchpriority="high"></div>
+  <div class="portrait-caption"><span>ENGINEERING WITH CURIOSITY</span><span aria-hidden="true">01 / JQ</span></div>
+  <div class="portrait-tag"><span class="tag-icon" aria-hidden="true">↗</span><span>From understanding a problem<br>to building a working system.</span></div>
+ </div>
+</section>
+<div class="focus-strip"><div class="wrap"><span>MY FOCUS</span><p>Software engineering <b>·</b> Agentic AI <b>·</b> Machine learning <b>·</b> Data systems</p></div></div>
+<section class="section wrap" id="work" aria-labelledby="work-title">
+ <div class="section-head"><div><p class="eyebrow">01 — SELECTED WORK</p><h2 id="work-title">Ideas, built into systems.</h2></div><p>Industry engineering and research<br>across software, language, and data.</p></div>
+ <div class="filters" role="group" aria-label="Filter selected work"><button class="filter active" data-filter="all" aria-pressed="true">All work <span>04</span></button><button class="filter" data-filter="software" aria-pressed="false">Software & systems</button><button class="filter" data-filter="ml" aria-pressed="false">Machine learning</button></div>
+ <p id="filter-status" class="sr-only" aria-live="polite">Showing all 4 projects.</p>
+ <div class="projects">
+  <article class="project" data-category="software ml">
+   <div class="project-art art-agent" aria-hidden="true"><div class="art-label">01 / AGENT ORCHESTRATION</div><div class="agent-path"><span>Understand</span><i>→</i><span>Orchestrate</span><i>→</i><span>Execute</span></div><div class="agent-grid"><span>Structured intent</span><span>Stateful workflows</span><span>Reusable tools</span></div><div class="art-bottom">LLM + LANGGRAPH + MCP <span>↗</span></div></div>
+   <div class="project-body"><p class="project-meta">INDUSTRY WORK <span>2026</span></p><h3>AI assistant for autonomous vessels</h3><p>Turning natural-language requests into reliable tool workflows for an unmanned surface vessel product line.</p><div class="metric"><strong>+18%</strong><span>task-routing accuracy</span><strong>−30%</strong><span>invalid tool calls</span></div><p class="metric-note">Compared with prompt-only baselines.</p><ul class="chips" aria-label="Technologies"><li>LangGraph</li><li>FastAPI</li><li>MCP</li><li>Redis</li></ul><details><summary>Explore the engineering <span aria-hidden="true">+</span></summary><div class="detail-copy"><p>Built LLM-based intent classification, structured outputs, stateful workflows, and MCP-compatible tool adapters supporting 20+ intents and 15+ reusable skills.</p><p>Compared agent frameworks on latency, completion rate, recovery, state persistence, observability, and human-in-the-loop support. Developed containerized reference implementations with Docker, Kubernetes, vector search, and OpenTelemetry.</p><p class="detail-note">Completed during my software engineering internship at Kornet Environmental Technology.</p></div></details></div>
+  </article>
+  <article class="project" data-category="software">
+   <div class="project-art art-water" aria-hidden="true"><div class="art-label">02 / ENVIRONMENTAL SYSTEMS</div><svg viewBox="0 0 500 140" fill="none"><path d="M0 70 Q62 10 125 70 T250 70 T375 70 T500 70"/><path d="M0 90 Q62 30 125 90 T250 90 T375 90 T500 90"/><path d="M0 110 Q62 50 125 110 T250 110 T375 110 T500 110"/></svg><div class="art-bottom">SENSE. PROCESS. RESPOND. <span>↗</span></div></div>
+   <div class="project-body"><p class="project-meta">INDUSTRY WORK <span>2025</span></p><h3>Real-time environmental monitoring</h3><p>A full-stack system connecting water-quality data, trend analysis, and reliable pollution alerts.</p><p class="project-highlight">From live sensor data to actionable notifications.</p><ul class="chips" aria-label="Technologies"><li>Spring Boot</li><li>React</li><li>PostgreSQL</li><li>RabbitMQ</li></ul><details><summary>Explore the engineering <span aria-hidden="true">+</span></summary><div class="detail-copy"><p>Developed monitoring and CRUD features with Spring Boot, React, and PostgreSQL. Added Redis caching for aggregated sensor data, thresholds, and alert state.</p><p>Implemented RabbitMQ email notifications with prefetch configuration, persistent messaging, and retry handling. Containerized the application with Docker and deployed it on Kubernetes.</p><p class="detail-note">Completed during my software engineering internship at Kornet Environmental Technology.</p></div></details></div>
+  </article>
+  <article class="project" data-category="ml">
+   <div class="project-art art-speech" aria-hidden="true"><div class="art-label">03 / SPEECH & MACHINE LEARNING</div><div class="waveform"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><div class="art-bottom">TIMING + PERSONAL BASELINES <span>↗</span></div></div>
+   <div class="project-body"><p class="project-meta">COURSE RESEARCH <span class="in-progress">IN PROGRESS</span></p><h3>Listening beyond the words</h3><p>Investigating speech timing and speaker-specific baselines for emotion recognition across speakers.</p><p class="project-highlight">Can personal timing patterns improve emotion recognition?</p><ul class="chips" aria-label="Methods"><li>Speech emotion recognition</li><li>SVM</li><li>Random Forest</li></ul><details><summary>Explore the research <span aria-hidden="true">+</span></summary><div class="detail-copy"><p>Comparing SVM, Random Forest, and neural-network approaches to assess the value of timing features and personal baselines for speech emotion recognition.</p><p>The investigation includes variation in word-to-word intervals and cross-speaker generalization. This is ongoing course research; results are not yet finalized.</p><p class="detail-note">Georgia Tech machine learning course project · September 2026–present.</p></div></details></div>
+  </article>
+  <article class="project" data-category="ml software">
+   <div class="project-art art-nlp" aria-hidden="true"><div class="art-label">04 / LANGUAGE & FINANCIAL DATA</div><div class="corpus"><strong>1M<span>+</span></strong><span>posts & comments<br>collected and structured</span></div><div class="art-bottom">TEXT → SENTIMENT → FEATURES <span>↗</span></div></div>
+   <div class="project-body"><p class="project-meta">RESEARCH PROJECT <span>2024–2025</span></p><h3>From public opinion to predictive features</h3><p>A large-scale text pipeline connecting financial discussion, sentiment classification, and downstream modeling.</p><p class="project-highlight">Combining language models with structured financial signals.</p><ul class="chips" aria-label="Technologies"><li>Python</li><li>FinBERT</li><li>LightGBM</li><li>NLP</li></ul><details><summary>Explore the research <span aria-hidden="true">+</span></summary><div class="detail-copy"><p>Built a Python scraping pipeline to collect, clean, and structure over one million stock-forum posts and comments. Fine-tuned FinBERT for sentiment classification and developed keyword features.</p><p>Engineered a crowding-based factor and used LightGBM to support ETF strategy research.</p><p class="detail-note">Co-researcher · Corporate Public Opinion Monitoring and Analysis Based on Video Big Data · February 2024–March 2025.</p></div></details></div>
+  </article>
+ </div>
+</section>
+<section class="experience-section" id="experience" aria-labelledby="experience-title"><div class="wrap section">
+ <div class="section-head"><div><p class="eyebrow">02 — EXPERIENCE</p><h2 id="experience-title">Learning by shipping.</h2></div><a class="text-link" href="assets/Junyi-Qian-Resume.pdf" target="_blank" rel="noopener">Full résumé <span aria-hidden="true">↗</span></a></div>
+ <div class="timeline">
+  <article class="job"><div class="job-date">APR — JUL 2026<span>Guangzhou, China</span></div><div><h3>Software Engineering Intern</h3><p class="company">Kornet Environmental Technology</p><p>Built an AI assistant platform with intent recognition, agent orchestration, and reusable tool integrations. Evaluated frameworks and developed reference implementations for the USV product line.</p><ul class="chips"><li>Agent systems</li><li>Backend engineering</li><li>Observability</li></ul></div><span class="job-number" aria-hidden="true">01</span></article>
+  <article class="job"><div class="job-date">MAY — AUG 2025<span>Guangzhou, China</span></div><div><h3>Software Engineering Intern</h3><p class="company">Kornet Environmental Technology</p><p>Developed a full-stack pollution monitoring application with data visualization, Redis caching, and message-driven alerts. Worked across application development and container deployment.</p><ul class="chips"><li>Full-stack development</li><li>Data systems</li><li>Messaging</li></ul></div><span class="job-number" aria-hidden="true">02</span></article>
+  <article class="job"><div class="job-date">JUL — AUG 2024<span>Shenzhen, China</span></div><div><h3>Integrated Project Management Intern</h3><p class="company">Tencent</p><p>Used SQL and Python to analyze GPU reservation fulfillment, lead times, and utilization. Built Excel dashboards and presented supply-demand insights to support infrastructure capacity planning.</p><ul class="chips"><li>SQL & Python</li><li>GPU utilization</li><li>Data analysis</li></ul></div><span class="job-number" aria-hidden="true">03</span></article>
+ </div>
+</div></section>
+<section class="section wrap about" id="about" aria-labelledby="about-title">
+ <div class="about-copy"><p class="eyebrow">03 — A LITTLE ABOUT ME</p><h2 id="about-title">Curious about the problem.<br><em>Careful with the solution.</em></h2><p>My path started in Financial Technology and led me to Computer Science. Along the way, I’ve worked with large-scale text data, built backend services, and developed AI workflows for real products.</p><p>I’m especially interested in the space where machine learning meets software engineering: making intelligent capabilities useful, dependable, and easy to integrate.</p><p>I’m currently pursuing my M.S. in Computer Science at Georgia Tech and seeking software engineering, machine learning, and AI engineering internships for Summer 2027.</p><div class="education"><div><span class="edu-symbol" aria-hidden="true">GT</span><div><h3>Georgia Institute of Technology</h3><p>M.S. Computer Science · 2026–2028 (expected)</p></div></div><div><span class="edu-symbol" aria-hidden="true">SCUT</span><div><h3>South China University of Technology</h3><p>B.S. Financial Technology · 2022–2026<br>GPA 3.82 / 4.0 · Top 10%</p></div></div></div></div>
+ <aside class="toolkit" aria-labelledby="toolkit-title"><p class="eyebrow">THE TOOLKIT</p><h3 id="toolkit-title">What I work with.</h3><dl><dt>Languages</dt><dd>Python · C++ · Java · JavaScript · SQL · MATLAB</dd><dt>AI & machine learning</dt><dd>PyTorch · TensorFlow · LangGraph · LightGBM · FinBERT</dd><dt>Applications & APIs</dt><dd>FastAPI · Spring Boot · React · REST APIs · MCP</dd><dt>Data & infrastructure</dt><dd>PostgreSQL · MySQL · Redis · RabbitMQ · Docker · Kubernetes · AWS</dd></dl><a class="text-link" href="https://github.com/KaiteQ04" target="_blank" rel="noopener noreferrer">Find me on GitHub <span aria-hidden="true">↗</span></a></aside>
+</section>
+<section class="contact-section" id="contact" aria-labelledby="contact-title"><div class="wrap contact-inner"><div><p class="eyebrow">04 — WHAT’S NEXT?</p><h2 id="contact-title">Let’s build<br><em>something useful.</em></h2><p>Have an internship opportunity or a project in mind?<br>I’d love to hear from you.</p></div><div class="contact-links"><a class="email-link" href="mailto:jqian320@gatech.edu">jqian320@gatech.edu <span aria-hidden="true">↗</span></a><div><a href="https://www.linkedin.com/in/junyi-qian-katie" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a><a href="https://github.com/KaiteQ04" target="_blank" rel="noopener noreferrer">GitHub ↗</a><a href="assets/Junyi-Qian-Resume.pdf" target="_blank" rel="noopener">Résumé ↗</a></div><p>Based in Atlanta · Open to opportunities across the U.S.</p></div></div></section>
+</main>
+<footer class="wrap footer"><a class="brand" href="#home">JQ<span class="brand-dot">.</span></a><p>© <span id="year">2026</span> Junyi Qian</p><a href="#home">Back to top ↑</a></footer>
+</body>
+</html>
